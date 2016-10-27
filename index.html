@@ -3,9 +3,9 @@
 <head>
     <title>Text analyzer</title>
     <meta charset="utf-8">
-
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
+
 </head>
 <body>
     <div class="container">
@@ -21,24 +21,23 @@
                     <button type="submit">Analyze it!</button>
                 </div>
             </form>
-
             <dl class="hidden text-report">
                 <dt>Word count</dt>
-                <dd></dd>
+                <dd class="ttlWordCount"></dd>
 
                 <dt>Unique word count</dt>
-                <dd></dd>
+                <dd class="unqWordCount"></dd>
 
                 <dt>Average word length</dt>
-                <dd></dd>
+                <dd class="avgWordLength"></dd>
 
                 <dt>Average sentence length</dt>
-                <dd></dd>
+                <dd class="avgSntcLength"></dd>
             </dl>
         </main>
     </div>
 
-    <!-- link to jquery -->
-    <!-- link to your app.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
